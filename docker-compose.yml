@@ -17,7 +17,7 @@ services:
     depends_on:
       - postgresql
     ports:
-      - '80:9000'
+      - '8000:9000'
     environment:
       - SONARQUBE_DATABASE_USER=bn_sonarqube
       - SONARQUBE_DATABASE_NAME=bitnami_sonarqube
